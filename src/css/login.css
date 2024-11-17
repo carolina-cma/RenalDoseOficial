@@ -1,0 +1,63 @@
+.container-login {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B2C9DA;
+  }
+   
+  
+  .login-container {
+    width: 100%;
+  }
+   
+  .login-box {
+    background-color: #FFE3E3;
+    padding: 4vw;
+    border-radius: 10px;
+  }
+   
+ 
+  .login-title {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 6vw;
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+  }
+   
+  .login-subtitle {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: black;
+  }
+   
+ 
+  .form-control-login {
+    padding: 3vw;
+    border-radius: 20px;
+    font-size: 3vw;
+    width: 100%;
+    max-width: 100%;
+  }
+   
+
+  .form-control-password {
+    padding: 3vw;
+    border-radius: 20px;
+    font-size: 4vw;
+    width: 100%;
+    max-width: 100%;
+  }
+   
+
+  .login-button {
+    width: 100%;
+    background-color: #B4D89E;
+    color: black;
+    padding: 3vw;
+    border: none;
+    border-radius: 3px;
+    font-size: 4vw;
+  }

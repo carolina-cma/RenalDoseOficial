@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #B2C9DA; 
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #root {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .container {
+    background-color: #FFE3E3; 
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 90%; 
+    max-width: 1000px; 
+    min-height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  h2 {
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  
+  .form-floating {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .form-floating label {
+    color: #555;
+  }
+  
+  
+  .form-control {
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+  
+  .form-select {
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+  
+  
+  button[type="submit"] {
+    background-color: #b5dfc0;
+    color: #333;
+    border: none;
+    border-radius: 8px;
+    padding: 18px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #a0c9ab;
+    color: #222;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    .container {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    h2 {
+      font-size: 2rem;
+    }
+  
+    .form-control,
+    .form-select,
+    button[type="submit"] {
+      font-size: 1.1rem;
+      padding: 15px;
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 1.8rem;
+    }
+  
+    .form-control,
+    .form-select,
+    button[type="submit"] {
+      font-size: 1rem;
+      padding: 12px;
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    .form-control,
+    .form-select,
+    button[type="submit"] {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

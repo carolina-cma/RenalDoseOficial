@@ -1,0 +1,100 @@
+body {
+  background-color: #b0c4de !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100vh !important;
+  margin: 0 !important;
+}
+
+.buscador-container {
+  background-color: #ffe4e1 !important;
+  padding: 20px 25px !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  text-align: center !important;
+  width: 100% !important;
+  max-width: 500px !important;
+  height: auto !important;
+}
+
+.buscador-container h2 {
+  color: #000 !important;
+  font-weight: bold !important;
+  font-size: 1.5em !important;
+  margin-bottom: 10px !important;
+}
+
+.buscador-container .form-label {
+  color: #000 !important;
+  font-size: 0.9em !important;
+  font-weight: bold !important;
+  display: block !important;
+  margin-bottom: 5px !important;
+}
+
+.buscador-container .form-control {
+  border-radius: 20px !important;
+  padding: 10px !important;
+  font-size: 0.9em !important;
+  width: 100% !important;
+  max-width: 300px !important;
+  background-color: #f0f0f0 !important;
+  border: none !important;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  margin: 0 auto !important;
+}
+
+.buscador-container .btn {
+  background-color: #98fb98 !important;
+  border: none !important;
+  color: #000 !important;
+  font-weight: bold !important;
+  width: 100% !important;
+  max-width: 300px !important;
+  margin-top: 10px !important;
+  padding: 10px !important;
+  border-radius: 20px !important;
+  font-size: 0.9em !important;
+}
+
+.buscador-container .btn:hover {
+  background-color: #8fbc8f !important;
+}
+
+/* Estilos para la lista de resultados con desplazamiento */
+.patient-list {
+  max-height: 200px; /* Ajusta el alto máximo */
+  overflow-y: auto;
+  margin-top: 15px !important;
+  padding: 0 !important;
+  background-color: #ffffff !important;
+  border-radius: 10px !important;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.patient-item {
+  padding: 10px 15px !important;
+  border: none !important;
+  background-color: #fafafa !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-size: 0.9em !important;
+  color: #333 !important;
+}
+
+.patient-item:last-child {
+  border-bottom: none !important;
+}
+
+.patient-item:hover {
+  background-color: #f0f0f0 !important;
+}
+
+.text-muted {
+  font-size: 0.9em !important;
+  color: #888 !important;
+  padding: 10px !important;
+}
